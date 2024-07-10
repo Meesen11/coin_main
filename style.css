@@ -15,10 +15,20 @@ button {
   font-size: 40px;
   margin: 0 auto;
   display: block;
+  background-image: url(dumplings.png);
 }
 
 #capybara_main {
-  margin-left: 42.5%;
+  margin-left: 40%;
   position: relative;
   top: -120px;
+}
+
+#dumplings_click_main {
+  background-color: transparent; /* Делаем фон прозрачным */
+  border: none; /* Убираем границы кнопки */
+  padding: 0; /* Убираем отступы внутри кнопки */
+  cursor: pointer; /* Делаем курсор указателем при наведении на кнопку */
+  transform: scale(0.2);
+  margin-left: 40%;
 }
